@@ -41,6 +41,8 @@ export default function contact() {
           </div>
         </div>
       </div>
+      <hr></hr>
+      <p>Copyright: Double H Land Maintenance and More 2022</p>
     </div>
   );
 }
