@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import SkidSteer from "./images/SkidSteer.png";
 import Attch1 from "./images/Attch1.png";
 import Attch2 from "./images/Attch2.png";
@@ -8,8 +8,18 @@ import Bucket from "./images/Bucket.jpg";
 import Demo from "./images/Demo.jpg";
 import Shred from "./images/Shred.jpg";
 
-export default function body() {
-  return (<div>
+
+export default function Body() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+        const ismobile = window.innerWidth < 1200;
+        if (ismobile !== isMobile) setIsMobile(ismobile);
+    }, false);
+}, [isMobile]);
+
+  return (
+  <div>
     <div className="row d-flex justify-content-center body-div">
       <div className=" description-card card text-center">
         <div className="card-header">What do we do?</div>
@@ -25,7 +35,7 @@ export default function body() {
         </div>
       </div>
       </div>
-      <div className="row d-flex justify-content-center body-div">
+      <div className={`${isMobile? 'column' : 'row'} picturesss d-flex justify-content-center body-div`}>
       <div
         id="carouselExampleCaptions1"
         className="col-6 carousel slide"

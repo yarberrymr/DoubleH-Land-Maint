@@ -80,5 +80,8 @@ img
 
 
 @media only screen and (max-width: 991px) {
-  
+  .picturesss {
+    flex-direction: column;
+    align-items: center;
+  }
 }
