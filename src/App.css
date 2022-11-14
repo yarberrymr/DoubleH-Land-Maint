@@ -23,8 +23,11 @@
 }
 img
 {
-   width: 50%;
+   width: 100%;
    margin: auto;
+}
+.email-card {
+  width: 22rem !important;
 }
 .description-card {
   margin-top: 10px;
@@ -45,7 +48,21 @@ img
 .contact-header {
   margin-top: 15px;
 }
-
+.transparent-bg{
+  color: white;
+  font-style: bold;
+}
+.carousel-control-prev, .carousel-control-next {
+  color: black;
+}
+.carousel-caption {
+  font-weight: bold;
+  background-color: grey;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding: 5px;
+}
 .App-link {
   color: #61dafb;
 }
