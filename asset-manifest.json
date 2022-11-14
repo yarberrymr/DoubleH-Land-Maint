@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/DoubleH-Land-Maint/static/css/main.bff20afc.css",
-    "main.js": "/DoubleH-Land-Maint/static/js/main.2c108fa5.js",
+    "main.css": "/DoubleH-Land-Maint/static/css/main.a4f5ee1f.css",
+    "main.js": "/DoubleH-Land-Maint/static/js/main.14073bf0.js",
     "static/js/787.159cbf78.chunk.js": "/DoubleH-Land-Maint/static/js/787.159cbf78.chunk.js",
     "static/media/Attch2.png": "/DoubleH-Land-Maint/static/media/Attch2.4a26c03fe0330f0224d0.png",
     "static/media/Attch1.png": "/DoubleH-Land-Maint/static/media/Attch1.4f48a4af830399a046cf.png",
     "static/media/SkidSteer.png": "/DoubleH-Land-Maint/static/media/SkidSteer.aabdf2ff0de231b0a74e.png",
+    "static/media/Shred.jpg": "/DoubleH-Land-Maint/static/media/Shred.bafce16f8078877f5384.jpg",
+    "static/media/Demo.jpg": "/DoubleH-Land-Maint/static/media/Demo.49efac721d42143c8eb2.jpg",
+    "static/media/Base.jpg": "/DoubleH-Land-Maint/static/media/Base.fbe2833f0613d4556548.jpg",
+    "static/media/Bucket.jpg": "/DoubleH-Land-Maint/static/media/Bucket.586a7a6eba208f33da1e.jpg",
+    "static/media/Base2.jpg": "/DoubleH-Land-Maint/static/media/Base2.9ae6f2a5f4984c6f6370.jpg",
     "index.html": "/DoubleH-Land-Maint/index.html",
-    "main.bff20afc.css.map": "/DoubleH-Land-Maint/static/css/main.bff20afc.css.map",
-    "main.2c108fa5.js.map": "/DoubleH-Land-Maint/static/js/main.2c108fa5.js.map",
+    "main.a4f5ee1f.css.map": "/DoubleH-Land-Maint/static/css/main.a4f5ee1f.css.map",
+    "main.14073bf0.js.map": "/DoubleH-Land-Maint/static/js/main.14073bf0.js.map",
     "787.159cbf78.chunk.js.map": "/DoubleH-Land-Maint/static/js/787.159cbf78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bff20afc.css",
-    "static/js/main.2c108fa5.js"
+    "static/css/main.a4f5ee1f.css",
+    "static/js/main.14073bf0.js"
   ]
 }
