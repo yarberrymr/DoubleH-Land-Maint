@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import SkidSteer from "./images/SkidSteer.png";
-import Attch1 from "./images/Attch1.png";
-import Attch2 from "./images/Attch2.png";
-import Base from "./images/Base.jpg";
-import Base2 from "./images/Base2.jpg";
-import Bucket from "./images/Bucket.jpg";
-import Demo from "./images/Demo.jpg";
-import Shred from "./images/Shred.jpg";
+import SkidSteer from "./images/SkidSteer.webp";
+import Attch1 from "./images/Attch1.webp";
+import Attch2 from "./images/Attch2.webp";
+import Base from "./images/Base.webp";
+import Base2 from "./images/Base2.webp";
+import Bucket from "./images/Bucket.webp";
+import Demo from "./images/Demo.webp";
+import Shred from "./images/Shred.webp";
 
 
 export default function Body() {
