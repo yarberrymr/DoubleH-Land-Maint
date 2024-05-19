@@ -14,12 +14,39 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-image: linear-gradient(blue, lightblue);
   min-height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   color: white;
+}
+hr{
+  width: 75% !important;
+}
+.title-header{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contact-btn{
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.body-div{
+  background-color: lightblue;
+  padding-bottom: 10px;
+}
+#contact{
+  background-color: lightblue;
+}
+.footer-div{
+  height: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(lightblue, blue);
+}
+.list-margin{
+  margin-left: -30px;;
 }
 img
 {
@@ -44,9 +71,6 @@ img
 .contact-card {
   width: 18rem;
   margin: 10px;
-}
-.contact-header {
-  margin-top: 15px;
 }
 .transparent-bg{
   color: white;

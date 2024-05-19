@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from "react";
-import SkidSteer from "./images/SkidSteer.webp";
-import Attch1 from "./images/Attch1.webp";
-import Attch2 from "./images/Attch2.webp";
-import Base from "./images/Base.webp";
-import Base2 from "./images/Base2.webp";
-import Bucket from "./images/Bucket.webp";
-import Demo from "./images/Demo.webp";
-import Shred from "./images/Shred.webp";
+// import SkidSteer from "./images/SkidSteer.webp";
+// import Attch1 from "./images/Attch1.webp";
+// import Attch2 from "./images/Attch2.webp";
+let base = "https://i.postimg.cc/XvyrGKX2/Base.webp";
+// import Base from "./images/Base.webp";
+let base2 = "https://i.postimg.cc/ZRtCr9dJ/Base2.webp";
+// import Base2 from "./images/Base2.webp";
+// import Bucket from "./images/Bucket.webp";
+let demo = "https://i.postimg.cc/fLck5wcm/Demo.webp";
+// import Demo from "./images/Demo.webp";
+let shred = "https://i.postimg.cc/6pP7pb62/Shred.webp";
+// import Shred from "./images/Shred.webp";
 
 
 export default function Body() {
@@ -19,13 +23,13 @@ export default function Body() {
 }, [isMobile]);
 
   return (
-  <div>
+  <div class="body-div">
     <div className="row d-flex justify-content-center body-div">
       <div className=" description-card card text-center">
         <div className="card-header">What do we do?</div>
         <div className="card-body">
           <h5 className="card-title">As the name suggests, we can perform various land maintenance</h5>
-          <ul className=" no-styling card-text">
+          <ul className=" no-styling card-text list-margin">
             <li>Lot Clearing</li>
             <li>Lot Leveling</li>
             <li>Underbrush Shredding</li>
@@ -36,7 +40,7 @@ export default function Body() {
       </div>
       </div>
       <div className={`${isMobile? 'column' : 'row'} picturesss d-flex justify-content-center body-div`}>
-      <div
+      {/* <div
         id="carouselExampleCaptions1"
         className="col-6 carousel slide"
         data-bs-ride="carousel"
@@ -131,7 +135,7 @@ export default function Body() {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> */}
       <div
         id="carouselExampleCaptions"
         className="col-6 carousel slide"
@@ -167,7 +171,7 @@ export default function Body() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Demo} className="d-block " alt="Lot cleared after demolition" />
+            <img src={demo} className="d-block " alt="Lot cleared after demolition" />
             <div className="carousel-caption d-none d-md-block">
               <h5 className="transparent-bg">After house demo</h5>
               <p className="transparent-bg">
@@ -176,7 +180,7 @@ export default function Body() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Base} className="d-block " alt="spillway cleanout"></img>
+            <img src={base} className="d-block " alt="spillway cleanout"></img>
             <div className="carousel-caption d-none d-md-block">
               <h5 className="transparent-bg">Spillway cleanout #1</h5>
               <p className="transparent-bg">
@@ -185,7 +189,7 @@ export default function Body() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Base2} className="d-block " alt="spillway cleanout"></img>
+            <img src={base2} className="d-block " alt="spillway cleanout"></img>
             <div className="carousel-caption d-none d-md-block">
               <h5 className="transparent-bg">Spillway cleanout #2</h5>
               <p className="transparent-bg">
@@ -194,7 +198,7 @@ export default function Body() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Shred} className="d-block " alt="Lot shredding after"></img>
+            <img src={shred} className="d-block " alt="Lot shredding after"></img>
             <div className="carousel-caption d-none d-md-block">
               <h5 className="transparent-bg">Lot shredding</h5>
               <p className="transparent-bg">

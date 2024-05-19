@@ -12,8 +12,8 @@ export default function contact() {
             <p className="card-text">
               Lloyd owns and operates the equipment.
             </p>
-            <a href="tel:+1-254-449-1362" className="btn btn-primary">Click to Call Lloyd</a>
-            <p>(254)-449-1362</p>
+            <a href="tel:+1-254-466-0962" className="btn btn-primary">Click to Call Lloyd</a>
+            <p>(254)-466-0962</p>
           </div>
         </div>
         <div className="contact-card card text-center">
@@ -30,7 +30,7 @@ export default function contact() {
       <div className="row d-flex justify-content-center">
         <div className="contact-card card text-center email-card">
           <div className="card-body">
-            <h5 className="card-title">Business Email</h5>
+            <h5 className="card-title">Email the Business</h5>
             <p className="card-text">
               Emails go straight to the business and will be responded to asap.
             </p>
@@ -42,7 +42,6 @@ export default function contact() {
         </div>
       </div>
       <hr></hr>
-      <p>Copyright: Double H Land Maintenance and More 2022</p>
     </div>
   );
 }
