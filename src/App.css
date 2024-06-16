@@ -59,18 +59,25 @@ img
 .description-card {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 50%;
+  width: 40%;
   padding: 0px;
+}
+.solid-spacing {
+  justify-content: space-evenly !important;
 }
 .card-header {
   width: 100%;
 }
 .no-styling {
   list-style: none;
+  margin-bottom: 0px;
 }
 .contact-card {
   width: 18rem;
   margin: 10px;
+}
+.no-bottom-padding {
+  padding-bottom: 0px;
 }
 .transparent-bg{
   color: white;
@@ -87,8 +94,16 @@ img
   padding-bottom: 5px;
   padding: 5px;
 }
+.double-list {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
 .App-link {
   color: #61dafb;
+}
+.top-space {
+  margin-top: 18px;
 }
 
 @keyframes App-logo-spin {

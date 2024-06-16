@@ -24,21 +24,37 @@ export default function Body() {
 
   return (
   <div class="body-div">
-    <div className="row d-flex justify-content-center body-div">
-      <div className=" description-card card text-center">
-        <div className="card-header">What do we do?</div>
-        <div className="card-body">
-          <h5 className="card-title">As the name suggests, we can perform various land maintenance</h5>
-          <ul className=" no-styling card-text list-margin">
-            <li>Lot Clearing</li>
-            <li>Lot Leveling</li>
-            <li>Underbrush Shredding</li>
-            <li>Base Driveway Repair</li>
-            <li>And More!!!!</li>
-          </ul>
+    <div className="row d-flex justify-content-center body-div solid-spacing">
+        <div className=" description-card card text-center">
+          <div className="card-header">Who are we?</div>
+          <div className="card-body">
+            <h5 className="card-title">My name is Lloyd, and I bring over a decade of experience in operating both small and heavy equipment</h5>
+            <ul className=" no-styling card-text list-margin">
+              <li>Since 2014, I have managed a wide range of machinery and currently own a skid steer with various attachments and welding equipment. For projects requiring additional equipment, I am able to rent what is needed.</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      </div>
+        <div className=" description-card card text-center">
+          <div className="card-header">What do we do?</div>
+          <div className="card-body">
+            <h5 className="card-title">We specialize in a wide range of land maintenance services tailored to meet your specific needs.</h5>
+            <div className="double-list">
+              <ul className=" no-styling card-text">
+                <li>Lot Clearing/Leveling</li>
+                <li>Gravel/Base Work</li>
+                <li>Brush Work (Piling)</li>
+                <li>Debris Removal/Demo Work</li>
+              </ul>
+              <ul className=" no-styling card-text">
+                <li>Welding</li>
+                <li>Dirt Work</li>
+                <li>Culvert Pipe Installation</li>
+                <li>Shredding (Up to 4" Cedar)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
       <div className={`${isMobile? 'column' : 'row'} picturesss d-flex justify-content-center body-div`}>
       {/* <div
         id="carouselExampleCaptions1"
@@ -139,7 +155,7 @@ export default function Body() {
       <div
         id="carouselExampleCaptions"
         className="col-6 carousel slide"
-        data-bs-ride="carousel"
+        data-ride="false"
       >
         <div className="carousel-indicators">
           <button
